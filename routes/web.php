@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/profile', 'ProfileController@index')->name('profile');
+
+Route::get('/customer/print-pdf', 'CustomerController@printPDF')->name('customer.printpdf');
