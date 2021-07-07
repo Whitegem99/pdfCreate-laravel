@@ -65,7 +65,14 @@
         <td>{{ $diagnose->dental }}</td>
       </tr>
       @endforeach
-  </table>
+    </table>
+    <p><b>ADDRESS</b></p>
+    <P>{{$profile->address}}</P>
+    <p><b>EMAIL</b></p>
+    <P>{{$profile->email}}</P>
+    <p><b>PHONE</b></p>
+    <P>{{$profile->phone}}</P>
+    <img src="data:image/png;base64,{{ $image }}">
   </div>
 </body>
 </html>
