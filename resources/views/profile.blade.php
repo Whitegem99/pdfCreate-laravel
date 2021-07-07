@@ -74,5 +74,9 @@
     <P>{{$profile->phone}}</P>
     <img src="data:image/png;base64,{{ $image }}">
   </div>
+  <div class="page-break"></div>
+  <h1>Page 3</h1>
+  <div class="page-break"></div>
+  <h1>Page 4</h1>
 </body>
 </html>
